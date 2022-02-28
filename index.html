@@ -81,25 +81,25 @@
                         <svg class="nav-link__svg">
                            <use xlink:href='#icon-01'></use>
                         </svg>
-                        <p class="nav-link__text">Dashboard</p>
+                        <span class="nav-link__text">Dashboard</span>
                      </a>
                      <a href="#" class="nav-link">
                         <svg class="nav-link__svg">
                            <use xlink:href='#icon-02'></use>
                         </svg>
-                        <p class="nav-link__text">Classes</p>
+                        <span class="nav-link__text">Classes</span>
                      </a>
                      <a href="#" class="nav-link">
                         <svg class="nav-link__svg">
                            <use xlink:href='#icon-03'></use>
                         </svg>
-                        <p class="nav-link__text">Resources</p>
+                        <span class="nav-link__text">Resources</span>
                      </a>
                      <a href="#" class="nav-link">
                         <svg class="nav-link__svg">
                            <use xlink:href='#icon-04'></use>
                         </svg>
-                        <p class="nav-link__text">Learning Plan</p>
+                        <span class="nav-link__text">Learning Plan</span>
                      </a>
                      <a href="#" class="nav-link">
                         <div class="nav-link-for-after">
@@ -107,13 +107,13 @@
                               <use xlink:href='#icon-05'></use>
                            </svg>
                         </div>
-                        <p class="nav-link__text">Chat</p>
+                        <span class="nav-link__text">Chat</span>
                      </a>
                      <a href="#" class="nav-link">
                         <svg class="nav-link__svg">
                            <use xlink:href='#icon-06'></use>
                         </svg>
-                        <p class="nav-link__text">Settings</p>
+                        <span class="nav-link__text">Settings</span>
                      </a>
                   </nav>
                </div>
@@ -125,25 +125,25 @@
                <svg class="nav-link__svg">
                   <use xlink:href='#icon-01'></use>
                </svg>
-               <p class="nav-link__text">Dashboard</p>
+               <span class="nav-link__text">Dashboard</span>
             </a>
             <a href="#" class="nav-link">
                <svg class="nav-link__svg">
                   <use xlink:href='#icon-02'></use>
                </svg>
-               <p class="nav-link__text">Classes</p>
+               <span class="nav-link__text">Classes</span>
             </a>
             <a href="#" class="nav-link">
                <svg class="nav-link__svg">
                   <use xlink:href='#icon-03'></use>
                </svg>
-               <p class="nav-link__text">Resources</p>
+               <span class="nav-link__text">Resources</span>
             </a>
             <a href="#" class="nav-link">
                <svg class="nav-link__svg">
                   <use xlink:href='#icon-04'></use>
                </svg>
-               <p class="nav-link__text">Learning Plan</p>
+               <span class="nav-link__text">Learning Plan</span>
             </a>
             <a href="#" class="nav-link">
                <div class="nav-link-for-after">
@@ -151,13 +151,13 @@
                      <use xlink:href='#icon-05'></use>
                   </svg>
                </div>
-               <p class="nav-link__text">Chat</p>
+               <span class="nav-link__text">Chat</span>
             </a>
             <a href="#" class="nav-link">
                <svg class="nav-link__svg">
                   <use xlink:href='#icon-06'></use>
                </svg>
-               <p class="nav-link__text">Settings</p>
+               <span class="nav-link__text">Settings</span>
             </a>
          </nav>
          <div class="upgrade">
@@ -358,7 +358,7 @@
                         <p class="course__level-text">B2</p>
                      </div>
                      <div class="course-description">
-                        <div class="course-description__text">Business English</div>
+                        <span class="course-description__text">Business English</span>
                         <a href="#" class="progress-card-header__link course-description__text_link">Grammar
                            <svg class="progress-card-header__svg course-description__text_svg">
                               <use xlink:href='#arrow-right'></use>
@@ -371,7 +371,7 @@
                         <p class="course__level-text">B2</p>
                      </div>
                      <div class="course-description">
-                        <div class="course-description__text">Common English</div>
+                        <span class="course-description__text">Common English</span>
                         <a href="#" class="progress-card-header__link course-description__text_link">Phrasal Verbs
                            <svg class="progress-card-header__svg course-description__text_svg">
                               <use xlink:href='#arrow-right'></use>
@@ -384,7 +384,7 @@
                         <p class="course__level-text">C1</p>
                      </div>
                      <div class="course-description">
-                        <div class="course-description__text">Business Spanish</div>
+                        <span class="course-description__text">Business Spanish</span>
                         <a href="#" class="progress-card-header__link course-description__text_link">Vocabulary
                            <svg class="progress-card-header__svg course-description__text_svg">
                               <use xlink:href='#arrow-right'></use>
@@ -406,8 +406,14 @@
             </button>
          </div>
          <div class="about-me">
-            <div class="about-me-cover">
-               <img src="img/avatar.png" alt="Avatar" class="about-me-cover__img">
+            <div class="about-me-avatar">
+               <div class="about-me-cover">
+                  <img src="img/avatar.png" alt="Avatar" class="about-me-cover__img">
+               </div>
+               <label class="choice-file">
+                  <span>+</span>
+                  <input type="file" class="choice-file__input">
+               </label>
             </div>
             <h2 class="about-me__name">Sadia Tasnim</h2>
             <p class="about-me__status">Student</p>
@@ -417,8 +423,8 @@
                <p class="course__level-text course__level-text_about">B2</p>
             </div>
             <div class="course-description course-description_about">
-               <div class="course-description__text course-description__text_about">English</div>
-               <p class="progress-card-header__link progress-card-header__link_about">High intermediate</p>
+               <span class="course-description__text course-description__text_about">English</span>
+               <span class="progress-card-header__link progress-card-header__link_about">High intermediate</span>
             </div>
             <div class="progress-bar progress-bar_about">
                <span class="progress-bar_unit" style="width: 50%;"></span>
@@ -429,8 +435,8 @@
                <p class="course__level-text course__level-text_about">C1</p>
             </div>
             <div class="course-description course-description_about">
-               <div class="course-description__text course-description__text_about">Spanish</div>
-               <p class="progress-card-header__link progress-card-header__link_about">Advanced</p>
+               <span class="course-description__text course-description__text_about">Spanish</span>
+               <span class="progress-card-header__link progress-card-header__link_about">Advanced</span>
             </div>
             <div class="progress-bar progress-bar_about">
                <span class="progress-bar_unit" style="width: 85%;"></span>
@@ -448,8 +454,8 @@
                   <img src="img/icon01-remember.svg" alt="Icon reminders">
                </div>
                <div class="course-description course-description_reminders">
-                  <div class="course-description__text course-description__text_reminders">Eng - Vocabulary test</div>
-                  <p class="progress-card-header__link progress-card-header__link_about">24 Sep 2019, Firday</p>
+                  <span class="course-description__text course-description__text_reminders">Eng - Vocabulary test</span>
+                  <span class="progress-card-header__link progress-card-header__link_about">24 Sep 2019, Firday</span>
                </div>
             </div>
             <div class="course course-about">
@@ -457,8 +463,8 @@
                   <img src="img/icon02-remember.svg" alt="Icon reminders">
                </div>
                <div class="course-description course-description_reminders">
-                  <div class="course-description__text course-description__text_reminders">Eng - Send grammer homework</div>
-                  <p class="progress-card-header__link progress-card-header__link_about">29 Sep 2019, Wednesday</p>
+                  <span class="course-description__text course-description__text_reminders">Eng - Send grammer homework</span>
+                  <span class="progress-card-header__link progress-card-header__link_about">29 Sep 2019, Wednesday</span>
                </div>
             </div>
             <div class="course course-about">
@@ -466,8 +472,8 @@
                   <img src="img/icon02-remember.svg" alt="Icon reminders">
                </div>
                <div class="course-description course-description_reminders">
-                  <div class="course-description__text course-description__text_reminders">Spanish - Send essay</div>
-                  <p class="progress-card-header__link progress-card-header__link_about">05 oct 2019, Monday</p>
+                  <span class="course-description__text course-description__text_reminders">Spanish - Send essay</span>
+                  <span class="progress-card-header__link progress-card-header__link_about">05 oct 2019, Monday</span>
                </div>
             </div>
          </div>
